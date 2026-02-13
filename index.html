@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    
+
+    <div class="container">
+        <h1>Welcome to Tic Tac Toe!</h1>
+        <div class="Scoreboard">
+            <div class="score">
+                <span>You:</span>
+                <span id="playerScore">0</span>
+            </div>
+            <div class="score">
+                <span>Computer:</span>
+                <span id="computerScore">0</span>
+            </div>
+            <div class="score">
+                <span>Draws:</span>
+                <span id="drawScore">0</span>
+            </div>
+        </div>
+        <div class="status" id="status">Your turn</div>
+        <div class="game-board" id="board">
+            <div class="cell" data-index="0"></div>
+            <div class="cell" data-index="1"></div>
+            <div class="cell" data-index="2"></div>
+            <div class="cell" data-index="3"></div>
+            <div class="cell" data-index="4"></div>
+            <div class="cell" data-index="5"></div>
+            <div class="cell" data-index="6"></div>
+            <div class="cell" data-index="7"></div>
+            <div class="cell" data-index="8"></div>
+        </div>
+        <button id="restart-btn">Play Again</button>
+    </div>
+</body>
+</html>
